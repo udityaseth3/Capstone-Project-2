@@ -3,10 +3,10 @@ import google.generativeai as genai
 import PyPDF2
 
 # ✅ API key from Streamlit Secrets
-genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+genai.configure(api_key=st.secrets["API_KEY"])
 
 # Model
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("model_version")
 
 # Extract PDF text
 def extract_text_from_pdf(file):
