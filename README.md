@@ -1,4 +1,4 @@
-
+Project - BuddyAI Job Recomendation For Cndidates
 🚀 AI Resume Analyzer & Job Recommendation System
 
 📌 Overview
