@@ -6,10 +6,10 @@ from dotenv import load_dotenv
 
 # Load API key
 load_dotenv()
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key=os.secrets("Google_API_KEY"))
 
 # Gemini Model
-model = genai.GenerativeModel("gemini-2.5-flash")
+model = genai.GenerativeModel("fake")
 
 # Extract text from PDF
 def extract_text_from_pdf(file):
