@@ -12,6 +12,7 @@ The system collects job data from multiple online portals and compares it with c
 🤖 Job Recommendation System
 📊 Data Processing and Matching
 💻 User-friendly interface using Streamlit
+
 🛠️ Technologies Used
 Python
 BeautifulSoup (Web Scraping)
@@ -20,6 +21,7 @@ Pandas & NumPy (Data Processing)
 API (AI Resume Analysis)
 Streamlit (Web App Deployment)
 MongoDB (Database)
+
 ⚙️ How It Works
 Web Scraping Module
 Extracts job data such as title, company, skills, and description from job portals.
@@ -27,6 +29,7 @@ Resume Analyzer
 Upload resume
 Extracts key information (skills, experience, education)
 Uses AI to analyze and score the resume
+
 AI_Resume_Analyzer/
 │── app.py
 │── requirements.txt
